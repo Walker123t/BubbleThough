@@ -1,0 +1,60 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "23d-V5-xMx"; */
+"23d-V5-xMx.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "4Fx-J4-0c6"; */
+"4Fx-J4-0c6.placeholder" = "Password";
+
+/* Class = "UIBarButtonItem"; title = "Sign out"; ObjectID = "5YC-H3-VQD"; */
+"5YC-H3-VQD.title" = "Sign out";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "BgR-Tx-8mL"; */
+"BgR-Tx-8mL.placeholder" = "Email";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "N9W-gv-f4A"; */
+"N9W-gv-f4A.normalTitle" = "Login";
+
+/* Class = "UITextField"; placeholder = "Confirm Password"; ObjectID = "QaS-cL-k8u"; */
+"QaS-cL-k8u.placeholder" = "Confirm Password";
+
+/* Class = "UILabel"; text = "Welcome To Thought Bubble"; ObjectID = "Wed-M5-msx"; */
+"Wed-M5-msx.text" = "Welcome To Thought Bubble";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "Wsr-rF-7Ud"; */
+"Wsr-rF-7Ud.placeholder" = "Email";
+
+/* Class = "UIButton"; normalTitle = "Signup"; ObjectID = "Z9e-7o-G8R"; */
+"Z9e-7o-G8R.normalTitle" = "Signup";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "Zd1-0n-zbR"; */
+"Zd1-0n-zbR.placeholder" = "Password";
+
+/* Class = "UILabel"; text = "Welcome back!"; ObjectID = "a9i-eC-N6V"; */
+"a9i-eC-N6V.text" = "Welcome back!";
+
+/* Class = "UILabel"; text = "Don't have an account?"; ObjectID = "cGs-h1-VJ0"; */
+"cGs-h1-VJ0.text" = "Don't have an account?";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "dsl-Vy-PXa"; */
+"dsl-Vy-PXa.text" = "Label";
+
+/* Class = "UILabel"; text = "Where possibilities are captured"; ObjectID = "fzT-1k-glv"; */
+"fzT-1k-glv.text" = "Where possibilities are captured";
+
+/* Class = "UIButton"; normalTitle = "Signup"; ObjectID = "iEg-qg-uNo"; */
+"iEg-qg-uNo.normalTitle" = "Signup";
+
+/* Class = "UITextField"; placeholder = "Username"; ObjectID = "jub-7S-zXQ"; */
+"jub-7S-zXQ.placeholder" = "Username";
+
+/* Class = "UILabel"; text = "Already have an account?"; ObjectID = "kgG-fu-dkB"; */
+"kgG-fu-dkB.text" = "Already have an account?";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "neH-of-c0h"; */
+"neH-of-c0h.text" = "Label";
+
+/* Class = "UILabel"; text = "Tap to change"; ObjectID = "q5r-4j-IBd"; */
+"q5r-4j-IBd.text" = "Tap to change";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "uwW-Bc-1Vz"; */
+"uwW-Bc-1Vz.normalTitle" = "Login";
