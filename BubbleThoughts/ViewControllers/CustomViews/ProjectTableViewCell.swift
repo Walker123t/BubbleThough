@@ -12,11 +12,9 @@ class ProjectTableViewCell: UITableViewCell {
     
     @IBOutlet weak var projectNameLabel: UILabel!
     @IBOutlet weak var lastEditDateLabel: UILabel!
-    @IBOutlet weak var usersCountLabel: UILabel!
     
     override func prepareForReuse() {
         projectNameLabel.text = ""
         lastEditDateLabel.text = ""
-        usersCountLabel.text = ""
     }
 }

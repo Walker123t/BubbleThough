@@ -21,7 +21,6 @@ class SignupViewController: UIViewController, UIImagePickerControllerDelegate, U
     
     let firebaseStuff = FirebaseStuff()
     let imagePicker = UIImagePickerController()
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         //Adding Delegates
@@ -134,8 +133,9 @@ class SignupViewController: UIViewController, UIImagePickerControllerDelegate, U
     
     func signup(){
         guard let username = usernameField.text, username != "", let email = emailField.text, email != "", let password = passwordField.text, password != "", let confirmPassword = confirmPasswordField.text, confirmPassword != "" else {presentFeildsNotFilledOut(); return}
+        guard let image = userImage.backgroundImage(for: .normal) else {return}
         if password == confirmPassword{
-            firebaseStuff.signup(username: username, email: email.lowercased(), password: password) { (didComplete,error)  in
+            firebaseStuff.signup(username: username, email: email.lowercased(), password: password, image: image) { (didComplete,error)  in
                 if didComplete{
                     self.navigationController?.popViewController(animated: true)
                 }

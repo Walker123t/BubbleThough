@@ -17,9 +17,9 @@ class BubbleController{
     func createProject(projectName: String) {
         guard let userUid = Auth.auth().currentUser?.uid else {return}
         
-        let bubble = Bubble(lastChanged: Date(), projectName: projectName, bubbles: [], users: [userUid])
+        let bubble = Bubble(lastChanged: Date(), projectName: projectName, bubbles: [], users: [userUid], uid: nil)
         bubbles.append(bubble)
-        FirebaseStuff.shared.saveBubbles(bubble: bubble)
+        FirebaseStuff.shared.updateBubbles(bubble: bubble)
     }
     
     func deleteBubble(bubble: Bubble) {

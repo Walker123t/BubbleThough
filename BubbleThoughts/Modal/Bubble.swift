@@ -18,21 +18,18 @@ class Bubble{
     var uid: String
     var users: [String]
     
-    init(lastChanged: Date, projectName: String, bubbles: [String], users: [String], uid: String = UUID().uuidString) {
+    init(lastChanged: Date, projectName: String, bubbles: [String], users: [String], uid: String?) {
         self.lastChanged = lastChanged
         self.projectName = projectName
         self.bubbles = bubbles
         self.users = users
-        self.uid = uid
+        self.uid = uid ?? UUID().uuidString
     }
 }
 
 extension Bubble: Equatable{
     static func == (lhs: Bubble, rhs: Bubble) -> Bool {
-        if lhs.lastChanged == rhs.lastChanged &&
-            lhs.projectName == rhs.projectName &&
-            lhs.bubbles == rhs.bubbles &&
-            lhs.users == rhs.users {
+        if lhs.uid == rhs.uid {
             return true
         }
         return false
